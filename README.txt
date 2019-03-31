@@ -58,11 +58,11 @@ git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modif
 git commit -m "ajouté les paragraphes Scratch et mBlock au fichier feux-tricolores.html" : enregistre en local un nouveau commit avec sa remarque
 git push origin master : upload le nouveau commit vers Github.
 
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le paragraphe "Missions", l'enregistrer.
+Ajouter l'image "task_3_init.png" dans C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img\
+Ajouter le fichier "trafficlight_start.sb2" dans C:\Users\Marc\GIT\feu-tricolore\manazur\scratch\
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
+git commit -m "ajouté le paragraphe Missions au fichier feux-tricolores.html et l'image task_3_init.png et le fichier trafficlight_start.sb2" : enregistre en local un nouveau commit avec sa remarque
+git push origin master : upload le nouveau commit vers Github.
 
 Pour en savoir plus sur GIT aller à https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git
-
-
-
-
-Pour passer de feux-tricolores-4.html à feux-tricolores-5.html :
-ajouté le paragraphe "Missions" et l'image "task_3_init.png"
