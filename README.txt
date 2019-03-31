@@ -30,7 +30,9 @@ git init : déclarer le dossier en cours comme nouveau Repository (dépôt Git)
 git status : vérifie que le dossier /manazur est déclaré comme Repository, et qu'il contient des fichiers prêt à être ajoutés à un commit
 git add . : ajoute les dossiers et fichiers créés dans /manazur à la liste provisoire (non encore enregistrée) du commit 1 initial
 git commit -m "arborescence intiale du projet feux tricolores" pour enregistrer en local le commit 1 (l'ensemble des modifications faites en local sur les fichiers) avec sa remarque entre " "
-git push origin master : upload le commit 1 local vers Github (service de cloud pour partager du code entre collaborateurs)
+Avant d'utiliser la commande push suivante, aller à github.com pour y créer un nouveau Repository, nommé feu-tricolore. Copier dans le presse-papier son adresse qui est https://github.com/Manazur/feu-tricolore.git
+git remote add origin https://github.com/Manazur/feu-tricolore.git : ajoute cette adresse comme nouveau Repository sur le remote Github (serveur distant) du projet feu-tricolore
+git push origin master : upload le commit 1 local vers Github
 
 
 
