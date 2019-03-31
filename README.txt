@@ -28,14 +28,15 @@ cd.. : à utiliser pour remonter à C:\Users\Marc\GIT\feu-tricolore\manazur
 git status : savoir si le dossier en cours est déclaré comme dossier "Repository"
 git init : déclarer le dossier en cours comme nouveau Repository (dépôt Git)
 git status : vérifie que le dossier /manazur est déclaré comme Repository, et qu'il contient des fichiers prêt à être ajoutés à un commit
-git add . : ajoute les dossiers et fichiers créés dans /manazur à la liste du commit 1 initial
+git add . : ajoute les dossiers et fichiers créés dans /manazur à la liste provisoire (non encore enregistrée) du commit 1 initial
+git commit -m "arborescence intiale du projet feux tricolores" pour enregistrer en local le commit 1 (l'ensemble des modifications faites en local sur les fichiers) avec sa remarque entre " "
+git push origin master : upload le commit 1 local vers Github (service de cloud pour partager du code entre collaborateurs)
 
 
-git add . pour ajouter ce fichier .txt à la liste du commit 1
+
 modifier le fichier feux-tricolores.html
-git add . pour ajouter ce fichier .html à la liste du commit 1 (ou git add -a feux-tricolores.html )
-git commit -m "remarque" pour enregistrer en local le commit 1 (l'ensemble des modifications faites en local sur les fichiers) avec sa remarque
-git push origin master pour duppliquer le commit 1 vers Github (service de cloud pour partager du code entre collaborateurs)
+git add . pour ajouter ce fichier .html à la liste du commit 2 (ou git add -a feux-tricolores.html )
+git push origin master pour duppliquer le commit 2 vers Github (service de cloud pour partager du code entre collaborateurs)
 git pull pour duppliquer de Github vers local (pour rapatrier en local les mises à jour faites par les collaborateurs)
 git log pour voir la liste des commit effectués et des remarques faites sur chaque commit
 
