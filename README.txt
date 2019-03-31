@@ -47,12 +47,15 @@ git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modif
 git commit -m "ajouté le paragraphe La carte Arduino au fichier feux-tricolores.html et l'image ArduinoNano.jpg" : enregistre en local un nouveau commit avec sa remarque
 git push origin master : upload le nouveau commit vers Github.
 
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le paragraphe "Le simulateur", l'enregistrer.
+Ajouter les images simulation.gif  trafficlight_components.png  reed-switch.jpg  arduino_pinlayout.png dans C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img\
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
+git commit -m "ajouté le paragraphe Le simulateur au fichier feux-tricolores.html et les images simulation.gif  trafficlight_components.png  reed-switch.jpg  arduino_pinlayout.png" : enregistre en local un nouveau commit avec sa remarque
+git push origin master : upload le nouveau commit vers Github.
 
 
 Pour en savoir plus sur GIT aller à https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git
 
-Pour passer de feux-tricolores-2.html à feux-tricolores-3.html :
-ajouté le paragraphe "Le simulateur" et les images "simulation.gif", "trafficlight_components.png", "reed-switch.jpg", "arduino_pinlayout.png"
 
 Pour passer de feux-tricolores-3.html à feux-tricolores-4.html :
 ajouté les paragraphes "Scratch" et "mBlock"

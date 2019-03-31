@@ -503,7 +503,78 @@ pre[class*="language-"] {
 
 <p>Par contre, un capteur de température peut prendre plusieurs valeurs différentes. La carte Arduino accepte au maximum 256 valeurs différentes : de 0 à 255. Sur la carte, les entrées et sorties analogiques sont repérées avec un A : A1, A2, A3, etc.</p>
 
+<h2 id="toc_3">Le simulateur</h2>
 
+<p>Un système de signalisation routière est composé de 3 parties : des détecteurs, un ordinateur, des actionneurs.</p>
+
+<p><img src="./img/simulation.gif" alt=""></p>
+
+<p>Les détecteurs servent à détecter la présence d'une voiture. L'ordinateur sert à traiter ces informations, donc prendre des décisions et envoyer un signal numérique vers les actionneurs. Les actionneurs servent à faire une action, comme faire de la lumière avec des LED. </p>
+
+<p>Dans une maquette, l'ordinateur est remplacé par une carte Arduino (1). Les détecteurs (2) sont connectés en entrée sur la carte Arduino. Les actionneurs (3) sont connectés en sortie de la carte. </p>
+
+<p><img src="./img/trafficlight_components.png" alt=""></p>
+
+<p>Dans ce simulateur, il y a 2 détecteurs et 2 feux tricolores. Les détecteurs sont comme des interrupteurs qui peuvent être ouverts ou fermés. Ces détecteurs sont appelés &quot;I.L.S.&quot;. Un I.L.S. est capable de détecter un aimant. Lorsqu'on approche un aimant de l'I.L.S., ce détecteur se ferme, donc il envoie un signal numérique à l'état "1". Lorsque l'aimant s'éloigne, ce détecteur s'ouvre, donc il envoie un signal numérique à l'état "0". Il nous suffit donc de coller un aimant sous une voiture de la maquette.</p>
+
+<p><img src="./img/reed-switch.jpg" alt=""></p>
+
+<p>Les détecteurs (I.L.S.) et les actionneurs (LED) sont connectés sur ces broches de la carte Arduino : </p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Arduino</th>
+<th style="text-align: left">Broche</th>
+<th style="text-align: left">Rue</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: left">D2</td>
+<td style="text-align: left">Feu rouge</td>
+<td style="text-align: left">1ère Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D3</td>
+<td style="text-align: left">Feu orange</td>
+<td style="text-align: left">1ère Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D4</td>
+<td style="text-align: left">Feu vert</td>
+<td style="text-align: left">1ère Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D5</td>
+<td style="text-align: left">Détecteur I.L.S.</td>
+<td style="text-align: left">1ère Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D6</td>
+<td style="text-align: left">Feu rouge</td>
+<td style="text-align: left">2ème Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D7</td>
+<td style="text-align: left">Feu orange</td>
+<td style="text-align: left">2ème Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D8</td>
+<td style="text-align: left">Feu vert</td>
+<td style="text-align: left">2ème Rue</td>
+</tr>
+<tr>
+<td style="text-align: left">D9</td>
+<td style="text-align: left">Détecteur I.L.S.</td>
+<td style="text-align: left">2ème Rue</td>
+</tr>
+</tbody>
+</table>
+
+<p><img src="./img/arduino_pinlayout.png" alt=""></p>
 
 
 
