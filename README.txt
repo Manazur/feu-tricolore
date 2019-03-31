@@ -35,15 +35,21 @@ git remote add origin https://github.com/Manazur/feu-tricolore.git : ajoute cett
 git push origin master : upload le commit 1 local vers Github. Les étapes suivantes permettent de faire des modifications sur le code, des commit, des push pour mettre à jour les modif sur Github.
 
 Ouvrir le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le style du thème prism.js  puis l'enregistrer
+git add . : ajoute les dossiers et fichiers (modifiés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
 git commit -m "ajouté le style du thème prism.js au fichier feux-tricolores.html" : enregistre en local un nouveau commit
 git push origin master : upload le nouveau commit vers Github.
 
-git log pour voir la liste des commit effectués et des remarques faites sur chaque commit
+git log : affiche la liste des commit effectués et des remarques faites sur chaque commit
+
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le paragraphe "La carte Arduino", l'enregistrer.
+Ajouter une image dans C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img\ArduinoNano.jpg
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
+git commit -m "ajouté le paragraphe La carte Arduino au fichier feux-tricolores.html et l'image ArduinoNano.jpg" : enregistre en local un nouveau commit avec sa remarque
+git push origin master : upload le nouveau commit vers Github.
+
+
 
 Pour en savoir plus sur GIT aller à https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git
-
-Pour passer de feux-tricolores-1.html à feux-tricolores-2.html :
-ajouté le paragraphe "La carte Arduino" et l'image "ArduinoNano.jpg"
 
 Pour passer de feux-tricolores-2.html à feux-tricolores-3.html :
 ajouté le paragraphe "Le simulateur" et les images "simulation.gif", "trafficlight_components.png", "reed-switch.jpg", "arduino_pinlayout.png"
