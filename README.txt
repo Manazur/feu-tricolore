@@ -1,68 +1,122 @@
-Mon résumé sur GIT et GITHUB :
+PARTIES 1 ET 2 DU COURS OPENCLASSROOMS : PRENEZ GITHUB EN MAIN :
+Mon rï¿½sumï¿½ sur GIT et GITHUB :
 
-L'appli GIT est une console (Terminal) permettant de taper des commandes Linux dans un système Windows, pour enregistrer en local les différentes versions (commit) du code d'un développeur.
-Ces différentes versions sont enregistrées dans un dossier local appelé "Repository" en anglais, et "dépôt Git" en français.
-Si le développeur rencontre une erreur dans son code, l'appli GIT lui permet de revenir en arrière en ouvrant une version (un commit) de son code qui fonctionnait.
-Lorsqu'on développe un site web, il faut modifier plusieurs fichiers. L'ensemble de ces fichiers s'appelle un commit.
-Lorsqu'on développe à plusieurs, on a besoin de partager du code, donc de le mettre sur le cloud, avec tous ses commit. Le site github.com sert à ça. Il est gratuit si le partage est Public.
-
+L'appli GIT bash est une console (Terminal) permettant de taper des commandes Linux dans un systï¿½me Windows, pour enregistrer en local les diffï¿½rentes versions (commit) du code d'un dï¿½veloppeur.
+Ces diffï¿½rentes versions sont enregistrï¿½es dans un dossier local appelï¿½ "Repository" en anglais, et "dï¿½pï¿½t Git" en franï¿½ais.
+Si le dï¿½veloppeur rencontre une erreur dans son code, l'appli GIT lui permet de revenir en arriï¿½re en ouvrant une version (un commit) de son code qui fonctionnait.
+Lorsqu'on dï¿½veloppe un site web, il faut modifier plusieurs fichiers. L'ensemble de ces fichiers s'appelle un commit.
+Lorsqu'on dï¿½veloppe ï¿½ plusieurs, on a besoin de partager du code, donc de le mettre sur le cloud, avec tous ses commit. Le site github.com sert ï¿½ ï¿½a. Il est gratuit si le partage est Public.
+Au lieu de modifier les fichiers sur Git bash, on peut travailler plus facilement avec Visual Studio Code.
 
 MON PROJET :
 
-Taper une page en html avec l'appli gratuite Visual Studio Code. Mon Sujet : Comment réaliser un simulateur de feux tricolores avec une carte Arduino et l'appli mBlock ?
-Enregistrer les 4 commit des fichiers modifiés lors de l'écriture de cette page web, en local avec GIT, puis en public avec github.com
-En local, ces fichiers seront enregistrés sur C:\Users\Marc\GIT\feu-tricolore\manazur\
+Taper une page en html avec l'appli gratuite Visual Studio Code. Mon Sujet : Comment rï¿½aliser un simulateur de feux tricolores avec une carte Arduino et l'appli mBlock ?
+Enregistrer les 4 commit des fichiers modifiï¿½s lors de l'ï¿½criture de cette page web, en local avec GIT, puis en public avec github.com
+En local, ces fichiers seront enregistrï¿½s sur C:\Users\Marc\GIT\feu-tricolore\manazur\
 
 
-Méthode détaillée :
-Ouvrir la console Git pour y taper les commandes :
+Mï¿½thode dï¿½taillï¿½e :
+Ouvrir la console Git bash pour y taper les commandes :
 pwd : affiche l'adresse du dossier de travail en cours /c/users/marc
-mkdir git : crée le dossier git
-cd git : se déplacer dans le dossier créé
-mkdir feu-tricolore : crée le dossier feu-tricolore
-cd feu-tricolore : se déplacer dans le dossier créé. Continuer ainsi pour créer les chemins suivants :   C:\Users\Marc\GIT\feu-tricolore\manazur\   C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img   C:\Users\Marc\GIT\feu-tricolore\manazur\scratch\
-ls : lister le contenu du dossier de travail en cours. Enregistrer le présent document à C:\Users\Marc\GIT\feu-tricolore\manazur\readme.txt
-cd .. : remonter au dossier parent. A utiliser pour se déplacer à C:\Users\Marc\GIT\feu-tricolore\manazur\cours\
-touch feux-tricolores.html : crée le fichier à C:\Users\Marc\GIT\feu-tricolore\manazur\cours\feux-tricolores.html   Modifier ce fichier en l'ouvrant dans Visual Studio Code
-cd.. : à utiliser pour remonter à C:\Users\Marc\GIT\feu-tricolore\manazur
-git status : savoir si le dossier en cours est déclaré comme dossier "Repository"
-git init : déclarer le dossier en cours comme nouveau Repository (dépôt Git)
-git status : vérifie que le dossier /manazur est déclaré comme Repository, et qu'il contient des fichiers prêt à être ajoutés à un commit
-git add . : ajoute les dossiers et fichiers créés dans /manazur à la liste provisoire (non encore enregistrée) du commit 1 initial
+mkdir git : crï¿½e le dossier git
+cd git : se dï¿½placer dans le dossier crï¿½ï¿½
+mkdir feu-tricolore : crï¿½e le dossier feu-tricolore
+cd feu-tricolore : se dï¿½placer dans le dossier crï¿½ï¿½. Continuer ainsi pour crï¿½er les chemins suivants :   C:\Users\Marc\GIT\feu-tricolore\manazur\   C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img   C:\Users\Marc\GIT\feu-tricolore\manazur\scratch\
+ls : lister le contenu du dossier de travail en cours. Enregistrer le prï¿½sent document ï¿½ C:\Users\Marc\GIT\feu-tricolore\manazur\readme.txt
+cd .. : remonter au dossier parent. A utiliser pour se dï¿½placer ï¿½ C:\Users\Marc\GIT\feu-tricolore\manazur\cours\
+touch feux-tricolores.html : crï¿½e le fichier ï¿½ C:\Users\Marc\GIT\feu-tricolore\manazur\cours\feux-tricolores.html   Modifier ce fichier en l'ouvrant dans Visual Studio Code
+cd.. : ï¿½ utiliser pour remonter ï¿½ C:\Users\Marc\GIT\feu-tricolore\manazur
+git status : savoir si le dossier en cours est dï¿½clarï¿½ comme dossier "Repository"
+git init : dï¿½clarer le dossier en cours comme nouveau Repository (dï¿½pï¿½t Git)
+git status : vï¿½rifie que le dossier /manazur est dï¿½clarï¿½ comme Repository, et qu'il contient des fichiers prï¿½t ï¿½ ï¿½tre ajoutï¿½s ï¿½ un commit
+git add . : ajoute les dossiers et fichiers crï¿½ï¿½s dans /manazur ï¿½ la liste provisoire (non encore enregistrï¿½e) du commit 1 initial
 git commit -m "arborescence intiale du projet feux tricolores" pour enregistrer en local le commit 1 (l'ensemble des modifications faites en local sur les fichiers) avec sa remarque entre " "
-Avant d'utiliser la commande push suivante, aller à github.com pour y créer un nouveau Repository, nommé feu-tricolore. Copier dans le presse-papier son adresse qui est https://github.com/Manazur/feu-tricolore.git (pour pouvoir la coller à l'étape suivante)
+Avant d'utiliser la commande push suivante, aller ï¿½ github.com pour y crï¿½er un nouveau Repository, nommï¿½ feu-tricolore. Copier dans le presse-papier son adresse qui est https://github.com/Manazur/feu-tricolore.git (pour pouvoir la coller ï¿½ l'ï¿½tape suivante)
 git remote add origin https://github.com/Manazur/feu-tricolore.git : ajoute cette adresse comme nouveau Repository sur le remote Github (serveur distant) du projet feu-tricolore
-git push origin master : upload le commit 1 local vers Github. Les étapes suivantes permettent de faire des modifications sur le code, des commit, des push pour mettre à jour les modif sur Github.
+git push origin master : upload le commit 1 local vers Github. Les ï¿½tapes suivantes permettent de faire des modifications sur le code, des commit, des push pour mettre ï¿½ jour les modif sur Github.
 
-Ouvrir le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le style du thème prism.js  puis l'enregistrer
-git add . : ajoute les dossiers et fichiers (modifiés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
-git commit -m "ajouté le style du thème prism.js au fichier feux-tricolores.html" : enregistre en local un nouveau commit
+Ouvrir le fichier feux-tricolores.html avec Visual Studio Code pour le complï¿½ter en y ajoutant le style du thï¿½me prism.js  puis l'enregistrer
+git add . : ajoute les dossiers et fichiers (modifiï¿½s depuis le dernier commit) ï¿½ la liste provisoire (non encore enregistrï¿½e) du prochain commit
+git commit -m "ajoutï¿½ le style du thï¿½me prism.js au fichier feux-tricolores.html" : enregistre en local un nouveau commit
 git push origin master : upload le nouveau commit vers Github.
 
-git log : affiche la liste des commit effectués et des remarques faites sur chaque commit
+git log : affiche la liste des commit effectuï¿½s et des remarques faites sur chaque commit
+q : permet de sortir d'un processus qui bloque la console.
 
-Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le paragraphe "La carte Arduino", l'enregistrer.
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le complï¿½ter en y ajoutant le paragraphe "La carte Arduino", l'enregistrer.
 Ajouter une image dans C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img\ArduinoNano.jpg
-git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
-git commit -m "ajouté le paragraphe La carte Arduino au fichier feux-tricolores.html et l'image ArduinoNano.jpg" : enregistre en local un nouveau commit avec sa remarque
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiï¿½s ou supprimï¿½s depuis le dernier commit) ï¿½ la liste provisoire (non encore enregistrï¿½e) du prochain commit
+git commit -m "ajoutï¿½ le paragraphe La carte Arduino au fichier feux-tricolores.html et l'image ArduinoNano.jpg" : enregistre en local un nouveau commit avec sa remarque
 git push origin master : upload le nouveau commit vers Github.
 
-Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le paragraphe "Le simulateur", l'enregistrer.
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le complï¿½ter en y ajoutant le paragraphe "Le simulateur", l'enregistrer.
 Ajouter les images simulation.gif  trafficlight_components.png  reed-switch.jpg  arduino_pinlayout.png dans C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img\
-git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
-git commit -m "ajouté le paragraphe Le simulateur au fichier feux-tricolores.html et les images simulation.gif  trafficlight_components.png  reed-switch.jpg  arduino_pinlayout.png" : enregistre en local un nouveau commit avec sa remarque
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiï¿½s ou supprimï¿½s depuis le dernier commit) ï¿½ la liste provisoire (non encore enregistrï¿½e) du prochain commit
+git commit -m "ajoutï¿½ le paragraphe Le simulateur au fichier feux-tricolores.html et les images simulation.gif  trafficlight_components.png  reed-switch.jpg  arduino_pinlayout.png" : enregistre en local un nouveau commit avec sa remarque
 git push origin master : upload le nouveau commit vers Github.
 
-Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant les paragraphes "Scratch" et "mBlock", l'enregistrer.
-git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
-git commit -m "ajouté les paragraphes Scratch et mBlock au fichier feux-tricolores.html" : enregistre en local un nouveau commit avec sa remarque
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le complï¿½ter en y ajoutant les paragraphes "Scratch" et "mBlock", l'enregistrer.
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiï¿½s ou supprimï¿½s depuis le dernier commit) ï¿½ la liste provisoire (non encore enregistrï¿½e) du prochain commit
+git commit -m "ajoutï¿½ les paragraphes Scratch et mBlock au fichier feux-tricolores.html" : enregistre en local un nouveau commit avec sa remarque
 git push origin master : upload le nouveau commit vers Github.
 
-Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le compléter en y ajoutant le paragraphe "Missions", l'enregistrer.
+Modifier le fichier feux-tricolores.html avec Visual Studio Code pour le complï¿½ter en y ajoutant le paragraphe "Missions", l'enregistrer.
 Ajouter l'image "task_3_init.png" dans C:\Users\Marc\GIT\feu-tricolore\manazur\cours\img\
 Ajouter le fichier "trafficlight_start.sb2" dans C:\Users\Marc\GIT\feu-tricolore\manazur\scratch\
-git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiés ou supprimés depuis le dernier commit) à la liste provisoire (non encore enregistrée) du prochain commit
-git commit -m "ajouté le paragraphe Missions au fichier feux-tricolores.html et l'image task_3_init.png et le fichier trafficlight_start.sb2" : enregistre en local un nouveau commit avec sa remarque
+git add . : ajoute automatiquement tous les nouveaux dossiers et fichiers (modifiï¿½s ou supprimï¿½s depuis le dernier commit) ï¿½ la liste provisoire (non encore enregistrï¿½e) du prochain commit
+git commit -m "ajoutï¿½ le paragraphe Missions au fichier feux-tricolores.html et l'image task_3_init.png et le fichier trafficlight_start.sb2" : enregistre en local un nouveau commit avec sa remarque
 git push origin master : upload le nouveau commit vers Github.
 
-Pour en savoir plus sur GIT aller à https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git
+FIN de ce chapitre.
+
+
+PARTIE 3 : COLLABOREZ ET MAITRISEZ VOTRE HISTORIQUE.
+
+Le code principal tapï¿½ dans le chapitre prï¿½cï¿½dent est contenu dans la "branche" appelï¿½e Master. Lorsque qu'on initialise un repository Git, le code est placï¿½ dans cette "branche" Master.
+Si on veut tester une autre fonctionnalitï¿½ sur notre projet, on ï¿½crit son code dans une autre "branche" qu'on crï¿½e :
+git branch nouvelle-branche : crï¿½e une branche ici nommï¿½e nouvelle-branche
+git checkout nouvelle-branche : se dï¿½placer dans la nouvelle branche
+git branch : affiche les noms des diffï¿½rentes branches. Intï¿½rï¿½t des branches : pouvoir les supprimer entiï¿½rement si on dï¿½cide de ne pas dï¿½velopper une fonctionnalitï¿½ du projet.
+git checkout master : se dï¿½placer dans la branche master
+git merge nouvelle-branche : fusionne le code de la branche "nouvelle-branche" dans la branche "master". 
+Cette fusion peut ï¿½tre conflictuelle si 2 personnes ont modifiï¿½ un mï¿½me fichier ï¿½ la mï¿½me ligne et dans ce cas il s'affiche CONFLICT (content): Merge conflict in master
+Il faut alors voir les 2 versions manuellement et n'en garder qu'une, l'enregistrer puis faire un commit :
+commit -m "conflit rï¿½solu entre les lignes 20 et 30" : la fusion se fera alors sans avoir besoin de refaire un git merge. Vï¿½rifier en faisant un git status.
+Les conflits peuvent aussi ï¿½tre rï¿½solus plus facilement par des outils graphiques comme vimdiff, meld, opendiff, kdiff3, tkdiff, xxdiff, tortoisemerge, gvimdiff, diffuse, ecmerge, p4merge, araxis, emerge
+git mergetool vimdiff : utilise l'outil graphique vimdiff pour afficher simultanï¿½ment 2 fichiers et rï¿½soudre un conflit.
+git branch -d nouvelle-branche : supprime cette branche.
+
+POUR savoir qui a modifiï¿½ une ligne prï¿½cise de code dans un projet, utiliser la commande git blame : se dï¿½placer dans /manazur/cours/
+git blame feux-tricolores.html : affiche les premiers chiffres du SHA du Nï¿½ du commit, le nom de l'utilisateur qui a ï¿½crit chaque ligne, et l'heure d'enregistrement. Remarque : la console n'affiche que la 1ï¿½re page, pour afficher la suite, taper la touche espace. Puis "q" et "Entrer" pour quitter.
+git show 4256897 (qui sont les premiers chiffres du SHA d'un commit) : affiche plus de dï¿½tails sur les modifications faites sur chaque ligne d'un fichier, ajoutï¿½es (+) ou supprimï¿½es (-)
+
+SECURITE :
+Ne jamais commiter sur github de fichiers de configuration contenant des mots de passe, des clï¿½s d'API, etc. Pour les ignorer, crï¿½er un fichier .gitignore
+Puis l'ouvrir et y ï¿½crire le nom des fichiers qu'on veut ignorer, ex. /manazur/scratch/fichier.ext     Ces fichiers seront ignorï¿½s lors d'un git status ou d'un git commit
+Par contre le fichier .gitignore lui-mï¿½me doit ï¿½tre suivi et placï¿½ dans les commit.
+
+EVITER les commit inutiles :
+Si on doit interrompre un travail, par ex pour travailler en urgence sur une autre branche, on pourrait ï¿½tre tentï¿½ de faire un commit, mais il serait incomplet. Il existe un moyen de mettre de cï¿½tï¿½ le travail commencï¿½ en tapant la commande git stash
+On peut alors travailler sur une autre branche, faire un commit, puis plus tard poursuivre le travail interrompu aprï¿½s avoir tapï¿½ la commande git stash pop
+
+CONTRIBUER ï¿½ des projets open source :
+Faire une PR "pull request", c'est proposer une modification ï¿½ un projet hï¿½bergï¿½ sur Github. Commencer par rï¿½cupï¿½rer le Repository auquel on veut contribuer en cliquant sur "Fork", puis :
+copier l'URL https de la copie du repo qu'on a "forkï¿½"
+git clone https://github.com/manazur/nomduprojetforkï¿½.git
+se dï¿½placer dans le Repo qu'on vient de crï¿½er
+git branch mes-modif : crï¿½er une nouvelle branche oï¿½ je ferai mes modifications
+git checkout mes-modif : se dï¿½placer dans cette branche. Remarque : les 2 commandes prï¿½cï¿½dentes peuvent ï¿½tre fusionnï¿½es en tapant git checkout -b mes-modif
+Faire mes modifications puis les commiter par ex. git commit -m "Added feature allowing users to comment on the blog articles" (ï¿½crire en anglais puisque c'est partagï¿½)
+git push origin mes-modif : je ne fais pas un "origin master" puisque je n'ai pas travaillï¿½ sur la branche principale master
+Une fois mes modifications envoyï¿½es sur mon fork GitHub, il reste ï¿½ transmettre ma demande de modifications en faisant une pull request : se placer sur mon fork GitHub, sur ma nouvelle branche, et cliquer sur "Compare & pull request".
+Je serai alors amenï¿½ ï¿½ rï¿½diger un message en anglais pour prï¿½senter ma proposition de modifications ï¿½ l'auteur du projet.
+
+
+
+
+Pour en savoir plus sur GIT aller ï¿½ https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git
+Un cours complet ici : https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-git/
+Rq. : Visual Studio Code permet non seulement de taper du code, mais donne accï¿½s ï¿½ la console pour taper des commandes GIT.
+Un cours complet sur Visual Studio Code : https://www.grafikart.fr/tutoriels/windows-installation-vscode-1021
+ou aussi sur https://www.supinfo.com/articles/single/6616-decouvrir-visual-studio-code-2017
+
